@@ -54,19 +54,6 @@ int queue::dequeue()
 	
 }
 
-/*void stack::display()
-{
-    int c=cur_size;
-	cout<<"\nStack "<<"\n";
-	while(c!=0)
-	{
-		cout<<q1.front()<<"\n";
-		q1.pop();
-		c--;
-	}
-}*/
-
-
 int queue::front()
 {
 	if(s1.empty())
@@ -104,8 +91,6 @@ int main()
 						break;
 				case 2:cout<<"\n"<<q.dequeue()<<" is dequeued";
 						break;
-				/*case 3:s.display();
-						break;*/
 				case 3:cout<<"\nfront of queue is : "<<q.front();
 						break;
 				case 4: cout<<"\nSize of queue : "<<q.size();
