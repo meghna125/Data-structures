@@ -4,11 +4,10 @@
 #include<stack>
 using namespace std;
 
-stack<char> s;
-queue<char> q;
-
 int palindrome(string str)
 {
+	stack<char> s;
+	queue<char> q;
 	for(int i=0;i<str.length();i++)
 	{
 		s.push(str[i]);
@@ -27,7 +26,7 @@ int palindrome(string str)
 		}
 		
 	}
-	
+	return 1;
 }
 
 
